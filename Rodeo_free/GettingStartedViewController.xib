@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GettingStartedViewController">
+            <connections>
+                <outlet property="gettingstartedTextView" destination="bbU-PD-HI4" id="jqD-oG-qVO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerbg.png" id="dxE-Qz-Y12">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="bbU-PD-HI4">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <mutableString key="text">"Getting Started"
+                                 
+Create a Rodeo  
+                      
+*	You can rename your rodeo or accept the default.  
+*	Put in the location or accept the one given by your GPS(Ensure GPS is activated)
+*	Change the date or leave the current date.  
+*	Enter the number of rounds.  
+
+Setting Up Your Events
+                   
+*	Select the "Events" tab
+*	Accept the default event names or enter the actual event names.  
+*	Enter number of contestants and number of places paid or accept the default.  
+*	NOTE: to add each event you must hit the "+" sign at the end of the row or it will not add the event to your rodeo.  
+*	Once events are added hit "back" and "start rodeo", or hit "save rodeo" if you don't want to start it right away.  
+
+Start Tracking Your Rodeo
+	              
+*	Once you are ready to start your event you can get there from the "Create a rodeo" page by hitting "Start Rodeo" or from the "Look up a Rodeo" tab on the main page and selecting the desired rodeo.  
+*	Once started select the first event
+*	Accept the default contestant name or enter a new one. 
+*	In the "time" or "score" column enter it by simply hitting the box and punching in the number
+*	NOTE: For no times you have to enter a time of "99".  
+*	You can turn your device sideways (landscape view) and it will show you what the contestants will need to place in the first or last paid hole for both the round and the average.
+
+Change Default Settings
+                   
+*	If you would like to change any of the default settings go to the main page and hit "Settings".  
+*	There you can change the defaults that automatically come up for time, score, number of rounds, number of contestants and number of paid places.  
+*	Should you have any questions or comments please email help@myrodeoapp.com
+
+</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="303" y="218"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="innerbg.png" width="320" height="568"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

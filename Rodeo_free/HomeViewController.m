@@ -26,60 +26,42 @@
     self.navigationController.navigationBarHidden=YES;
 
     appDelegate=[[UIApplication sharedApplication] delegate];
-    
-    /*if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+    CGFloat height = [UIScreen mainScreen].bounds.size.height;
+    CGFloat width = [UIScreen mainScreen].bounds.size.width;
+
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+        bgimage.image=[UIImage imageNamed:@"bg.png"];
+        logoimage.frame=CGRectMake(75, 160, width-150, 41);
+        createRodeobtn.frame=CGRectMake(35, 220, width-70, 45);
+        lookupRodeobtn.frame=CGRectMake(35, 272, width-70, 45);
+        gettingstartedbtn.frame=CGRectMake(35, 322, width-70, 45);
+        aboutbtn.frame=CGRectMake(35,372, width-70, 45);
+        helpbtn.frame=CGRectMake(35, 422, width-70, 45);
+        //font
         createRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:24];
         lookupRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:24];
         gettingstartedbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:24];
         aboutbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:24];
         helpbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:24];
-        
-        self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIFont fontWithName:@"Brush Script Std" size:24] forKey:NSFontAttributeName];
     }else{
-        createRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:45];
-        lookupRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:45];
-        gettingstartedbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:45];
-        aboutbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:45];
-        helpbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:45];
-        
-        self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIFont fontWithName:@"Brush Script Std" size:40] forKey:NSFontAttributeName];
-    }*/
+        bgimage.image=[UIImage imageNamed:@"bg.png"];
+        logoimage.frame=CGRectMake(75, 160, width-150, 41);
+        createRodeobtn.frame=CGRectMake(35, 220, width-70, 45);
+        lookupRodeobtn.frame=CGRectMake(35, 272, width-70, 45);
+        gettingstartedbtn.frame=CGRectMake(35, 322, width-70, 45);
+        aboutbtn.frame=CGRectMake(35,372, width-70, 45);
+        helpbtn.frame=CGRectMake(35, 422, width-70, 45);
+        //font
+        createRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:50];
+        lookupRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:50];
+        gettingstartedbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:50];
+        aboutbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:50];
+        helpbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:50];
+    }
 
     
-    CGFloat yheight = [UIScreen mainScreen].bounds.size.height;
-    if(yheight>=480 && yheight<568){
-        bgimage.image=[UIImage imageNamed:@"bg.png"];
-
-    logoimage.frame=CGRectMake(73, 131, 173, 41);
-    createRodeobtn.frame=CGRectMake(36, 182, 247, 45);
-    lookupRodeobtn.frame=CGRectMake(36, 227, 247, 45);
-    gettingstartedbtn.frame=CGRectMake(36, 272, 247, 45);
-    aboutbtn.frame=CGRectMake(36, 317, 247, 40);
-    helpbtn.frame=CGRectMake(36, 357, 247, 40);
-    //font
-    createRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-    lookupRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-    gettingstartedbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-    aboutbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-    helpbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-
-    }else if(yheight>=568 && yheight<600){
-        //iphone 5
-        bgimage.image=[UIImage imageNamed:@"bg.png"];
-        logoimage.frame=CGRectMake(73, 160, 173, 41);
-        createRodeobtn.frame=CGRectMake(36, 215, 247, 45);
-        lookupRodeobtn.frame=CGRectMake(36, 262, 247, 45);
-        gettingstartedbtn.frame=CGRectMake(36, 307, 247, 45);
-        aboutbtn.frame=CGRectMake(36,352, 247, 40);
-        helpbtn.frame=CGRectMake(36, 392, 247, 40);
-        //font
-        createRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-        lookupRodeobtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-        gettingstartedbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-        aboutbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-        helpbtn.titleLabel.font = [UIFont fontWithName:@"Segoe Print" size:18];
-    }
-    // Do any additional setup after loading the view from its nib.
+    
+      // Do any additional setup after loading the view from its nib.
 }
 
 -(void)viewWillAppear:(BOOL)animated{

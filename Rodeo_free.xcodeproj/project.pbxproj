@@ -660,8 +660,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -683,7 +683,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "56c2755e-9433-439b-be6c-597ae45edb8d";
+				PROVISIONING_PROFILE = "f8add251-accf-4cd2-a53e-8856e9383b08";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -706,8 +706,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -722,7 +722,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "56c2755e-9433-439b-be6c-597ae45edb8d";
+				PROVISIONING_PROFILE = "f8add251-accf-4cd2-a53e-8856e9383b08";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -734,13 +734,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
 				INFOPLIST_FILE = Rodeo_free/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "56c2755e-9433-439b-be6c-597ae45edb8d";
+				PROVISIONING_PROFILE = "f8add251-accf-4cd2-a53e-8856e9383b08";
 			};
 			name = Debug;
 		};
@@ -749,13 +749,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
 				INFOPLIST_FILE = Rodeo_free/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "56c2755e-9433-439b-be6c-597ae45edb8d";
+				PROVISIONING_PROFILE = "f8add251-accf-4cd2-a53e-8856e9383b08";
 			};
 			name = Release;
 		};
@@ -763,8 +763,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -776,7 +776,7 @@
 				INFOPLIST_FILE = Rodeo_freeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "56c2755e-9433-439b-be6c-597ae45edb8d";
+				PROVISIONING_PROFILE = "f8add251-accf-4cd2-a53e-8856e9383b08";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rodeo_free.app/Rodeo_free";
 			};
 			name = Debug;
@@ -785,8 +785,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ben Labadie (QMXCE6M78Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khor Chin Kiew (FZ829W37EB)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -794,7 +794,7 @@
 				INFOPLIST_FILE = Rodeo_freeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "56c2755e-9433-439b-be6c-597ae45edb8d";
+				PROVISIONING_PROFILE = "f8add251-accf-4cd2-a53e-8856e9383b08";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rodeo_free.app/Rodeo_free";
 			};
 			name = Release;

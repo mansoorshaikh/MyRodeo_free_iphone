@@ -42,7 +42,8 @@
     self.navigationController.navigationBar.translucent = NO;
     
     self.navigationItem.title=@"Rodeos";
-    
+    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIFont fontWithName:@"Segoe Print" size:25] forKey:NSFontAttributeName];
+
     tblview.frame=CGRectMake(0,0,self.view.bounds.size.width,self.view.bounds.size.height);
     tblview.backgroundColor=[UIColor clearColor];
     [tblview removeFromSuperview];

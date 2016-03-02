@@ -60,7 +60,7 @@
     self.navigationItem.leftBarButtonItem = backBarButton;
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationbar.png"]];
     self.navigationController.navigationBar.translucent = NO;
-    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIFont fontWithName:@"Segoe Print" size:30] forKey:NSFontAttributeName];
+    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIFont fontWithName:@"Segoe Print" size:25] forKey:NSFontAttributeName];
 
            self.navigationItem.title=@"About My Rodeo";    // Do any additional setup after loading the view from its nib.
     CGFloat height = [UIScreen mainScreen].bounds.size.height;

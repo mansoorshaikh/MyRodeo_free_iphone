@@ -43,7 +43,8 @@
     self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIFont fontWithName:@"Segoe Print" size:30] forKey:NSFontAttributeName];
 
     self.navigationItem.title=@"Rodeo List";
-    
+    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIFont fontWithName:@"Segoe Print" size:25] forKey:NSFontAttributeName];
+
    
 
     

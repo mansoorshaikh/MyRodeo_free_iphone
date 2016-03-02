@@ -68,26 +68,14 @@
     
 
        self.navigationItem.title=@"Getting Started";
+    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIFont fontWithName:@"Segoe Print" size:25] forKey:NSFontAttributeName];
+
+    CGFloat width = [UIScreen mainScreen].bounds.size.width;
     CGFloat height = [UIScreen mainScreen].bounds.size.height;
-    if(height>=480 && height<568){
 
-    gettingstartedTextView.layer.frame=CGRectMake(0,0,self.view.bounds.size.width,400);
-    gettingstartedTextView.delegate = self;
-    gettingstartedTextView.font=[UIFont fontWithName:@"Segoe Print" size:20];
-        [self.view addSubview:gettingstartedTextView];
-    }else if(height>=568 && height<600){
-    
-        gettingstartedTextView.layer.frame=CGRectMake(0,0,self.view.bounds.size.width-100,500);
-        gettingstartedTextView.delegate = self;
-        gettingstartedTextView.font=[UIFont fontWithName:@"Segoe Print" size:20];
+    gettingstartedTextView.frame=CGRectMake(10, 10, width-20, height-40);
+    [self.gettingstartedTextView scrollRangeToVisible:NSMakeRange(0, 1)];
 
-        [self.view addSubview:gettingstartedTextView];
-    
-    }else{
-        gettingstartedTextView.font=[UIFont fontWithName:@"Segoe Print" size:20];
-        [self.view addSubview:gettingstartedTextView];
-
-    }
 
 
     // Do any additional setup after loading the view from its nib.
